@@ -1,82 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2025-01-01T12:00:00.000Z" agent="5.0">
-  <diagram id="process" name="Flowchart">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="29.1.1">
+  <diagram name="Page-1" id="G2sMJR0hvJYTxAf7P7aA">
+    <mxGraphModel dx="1474" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <!-- Start -->
-        <mxCell id="start" value="Start (Event Created)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="160" height="80" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&#xa;  &#xa;    &#xa;      &#xa;        &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;      &#xa;    &#xa;  &#xa;" vertex="1">
+          <mxGeometry height="1160" width="30" x="40" y="40" as="geometry" />
         </mxCell>
-
-        <!-- Green Flag -21 -->
-        <mxCell id="minus21" value="Green Flag - 21 Days&#xa;• Registrations Open&#xa;• Event Announcement Email to All&#xa;• Auto-populate from Event Data&#xa;• Auto-generate Discord Announcement&#xa;• Create AI Draft Blog/FB/Reddit Posts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf" vertex="1" parent="1">
-          <mxGeometry x="60" y="160" width="220" height="200" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366" value="Start (Event Created)" vertex="1">
+          <mxGeometry height="60" width="120" x="62.5" y="30" as="geometry" />
         </mxCell>
-
-        <!-- Race Week -8 Hours -->
-        <mxCell id="minus8h" value="Race Week - 8 Hours&#xa;• Automated Race Week Email&#xa;• Highlights PreQ Info & Welcome&#xa;• Sent to Registered Drivers&#xa;• Late Drivers Get Email on Signup&#xa;• Discord Post: Sessions Open" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656" vertex="1" parent="1">
-          <mxGeometry x="340" y="160" width="240" height="170" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="&lt;div align=&quot;left&quot;&gt;21 Days before Green Flag:&lt;br&gt;&lt;br&gt;• Registrations Open&lt;br&gt;• Event Announcement Email&lt;br&gt;• Discord Post&lt;br&gt;• Event social media post&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="195" x="25" y="120" as="geometry" />
         </mxCell>
-
-        <!-- Tuesday -->
-        <mxCell id="tuesday" value="Tuesday of Race Week&#xa;• Update Email to All Drivers&#xa;• PreQ Data (field + driver-specific)&#xa;• Lap Requirements&#xa;• League Joining&#xa;• Spotter Guide Reminders" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00" vertex="1" parent="1">
-          <mxGeometry x="340" y="360" width="240" height="170" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div align=&quot;left&quot;&gt;1 Day before Race Week:&lt;br&gt;&lt;br&gt;• Race Week Email (goes to new signups throughout the week as well)&lt;br&gt;• Discord: Sessions Open&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="195" x="25" y="260" as="geometry" />
         </mxCell>
-
-        <!-- Thursday -->
-        <mxCell id="thursday" value="Thursday of Race Week&#xa;• Reminder to Drivers Missing Minimums" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450" vertex="1" parent="1">
-          <mxGeometry x="340" y="560" width="240" height="120" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" value="&lt;div align=&quot;left&quot;&gt;Tuesday of Race Week:&lt;br&gt;&lt;br&gt;• Update Email&lt;/div&gt;&lt;div&gt;• Update Social Media post&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="195" x="25" y="390" as="geometry" />
         </mxCell>
-
-        <!-- Saturday -->
-        <mxCell id="saturday" value="Saturday (Day Before Races)&#xa;• Race Day Email&#xa;• Grid Only&#xa;• Includes Schedule + Protocol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6" vertex="1" parent="1">
-          <mxGeometry x="60" y="400" width="220" height="150" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" value="&lt;div align=&quot;left&quot;&gt;Thursday of Race Week:&lt;br&gt;&lt;br&gt;• Reminder to Registered Drivers Missing Minimum Laps or PreQ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="195" x="25" y="510" as="geometry" />
         </mxCell>
-
-        <!-- Monday After -->
-        <mxCell id="monday" value="Monday After Races&#xa;• Driver Results Email&#xa;• Highlights Driver Performance&#xa;• Invite Screenshot/Video Uploads" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366" vertex="1" parent="1">
-          <mxGeometry x="60" y="580" width="220" height="150" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" value="&lt;div align=&quot;left&quot;&gt;Saturday of Race Week:&lt;br&gt;&lt;br&gt;• Race Day Email (all drivers who made the grid)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="195" x="25" y="640" as="geometry" />
         </mxCell>
-
-        <!-- Weekend After -->
-        <mxCell id="weekend" value="Weekend After Event&#xa;• Thank You Email&#xa;• Blog Post Summary&#xa;• Attendance Highlights&#xa;• Podiums for All Splits&#xa;• Top 10 Points&#xa;• Links to Broadcasts&#xa;• Reminders for Next Event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#4a79ad" vertex="1" parent="1">
-          <mxGeometry x="200" y="760" width="280" height="200" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" value="&lt;div align=&quot;left&quot;&gt;Monday after Race:&lt;br&gt;&lt;br&gt;• Driver&#39;s Results Email with reminder to submit video clips and screenshots&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="195" x="25" y="770" as="geometry" />
         </mxCell>
-
-        <!-- Connections -->
-        <mxCell id="edge1" edge="1" parent="1" source="start" target="minus21" style="endArrow=block;strokeColor=#6c8ebf">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#4a79ad;align=left;" value="&lt;div align=&quot;left&quot;&gt;Saturday after Race:&lt;br&gt;&lt;br&gt;• Thank You Email&lt;br&gt;• Blog Recap&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="195" x="25" y="900" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge2" edge="1" parent="1" source="minus21" target="minus8h" style="endArrow=block;">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-11" edge="1" parent="1" source="wBJefWxLM3IlKjsjc-sP-3" style="endArrow=block;strokeColor=#6c8ebf" target="wBJefWxLM3IlKjsjc-sP-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge3" edge="1" parent="1" source="minus8h" target="tuesday" style="endArrow=block;">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-12" edge="1" parent="1" source="wBJefWxLM3IlKjsjc-sP-4" style="endArrow=block;" target="wBJefWxLM3IlKjsjc-sP-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge4" edge="1" parent="1" source="tuesday" target="thursday" style="endArrow=block;">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-13" edge="1" parent="1" source="wBJefWxLM3IlKjsjc-sP-5" style="endArrow=block;" target="wBJefWxLM3IlKjsjc-sP-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge5" edge="1" parent="1" source="thursday" target="saturday" style="endArrow=block;">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-14" edge="1" parent="1" source="wBJefWxLM3IlKjsjc-sP-6" style="endArrow=block;" target="wBJefWxLM3IlKjsjc-sP-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge6" edge="1" parent="1" source="saturday" target="monday" style="endArrow=block;">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-15" edge="1" parent="1" source="wBJefWxLM3IlKjsjc-sP-7" style="endArrow=block;" target="wBJefWxLM3IlKjsjc-sP-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="edge7" edge="1" parent="1" source="monday" target="weekend" style="endArrow=block;">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-16" edge="1" parent="1" source="wBJefWxLM3IlKjsjc-sP-8" style="endArrow=block;" target="wBJefWxLM3IlKjsjc-sP-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
+        <mxCell id="wBJefWxLM3IlKjsjc-sP-17" edge="1" parent="1" source="wBJefWxLM3IlKjsjc-sP-9" style="endArrow=block;" target="wBJefWxLM3IlKjsjc-sP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
-
-
